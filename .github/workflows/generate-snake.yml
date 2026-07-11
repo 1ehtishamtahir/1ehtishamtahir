@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Checkout the repository so the action can access the repository context
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       # Generate the snake animation SVG files
       # Using Platane/snk@v3 (latest recommended version)
