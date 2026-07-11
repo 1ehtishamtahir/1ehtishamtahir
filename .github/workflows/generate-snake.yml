@@ -57,11 +57,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           # The branch to publish the files to
+          publish_branch: output
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          destination_dir: .
           # Keep only the latest commit on the output branch
           force_orphan: true
-          # Do not include a commit message with the deployer name
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
