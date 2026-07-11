@@ -1,0 +1,67 @@
+# Workflow: Generate GitHub Contribution Snake Animation
+# This workflow generates an animated snake SVG from the user's GitHub
+# contribution graph and publishes it to the "output" branch.
+#
+# The snake animation is generated using Platane/snk, a popular tool
+# that creates animated SVGs/GIFs from GitHub contribution graphs.
+#
+# Generated files:
+#   - github-contribution-grid-snake.svg (default light theme)
+#   - github-contribution-grid-snake-dark.svg (GitHub Dark palette)
+
+name: Generate Snake
+
+# Trigger the workflow:
+#   1. Automatically every 12 hours via cron schedule
+#   2. Manually via GitHub UI (workflow_dispatch)
+on:
+  schedule:
+    # Run at 00:00 and 12:00 UTC every day
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:
+
+# Grant minimal required permissions to the GITHUB_TOKEN.
+# contents: write is needed to push generated files to the output branch.
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository so the action can access the repository context
+      - uses: actions/checkout@v4
+
+      # Generate the snake animation SVG files
+      # Using Platane/snk@v3 (latest recommended version)
+      # This action reads the user's contribution graph and produces an animated SVG
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          # The GitHub username to generate the snake for
+          github_user_name: 1ehtishamtahir
+
+          # The GITHUB_TOKEN is used to fetch the contribution calendar
+          # It defaults to ${{ github.token }} if not specified
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # List of output files to generate
+          # Each line defines one output file, with optional query string parameters
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # Publish the generated SVG files to the "output" branch
+      # This uses peaceiris/actions-gh-pages which creates/updates the branch
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # The branch to publish the files to
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: .
+          # Keep only the latest commit on the output branch
+          force_orphan: true
+          # Do not include a commit message with the deployer name
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
