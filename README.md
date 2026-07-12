@@ -129,22 +129,7 @@
 </picture>
 </p>
 
----
 
-# 🚀 Featured Projects
-
-### 🌟 Project 1
-> Add your best Python project here.
-
-### 🌟 Project 2
-> Add your best web application here.
-
-### 🌟 Project 3
-> Add your AI or automation project here.
-
-Pin these repositories on your GitHub profile.
-
----
 
 # 🌍 Connect With Me
 
