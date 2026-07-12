@@ -75,15 +75,6 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=1ehtishamtahir&theme=tokyo-night"/>
 </p>
 
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=1ehtishamtahir&theme=tokyonight&column=4&margin-w=15&margin-h=15&no-frame=true"/>
-</p>
-
----
 
 # 💻 Coding Activity
 
