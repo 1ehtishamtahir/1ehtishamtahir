@@ -1,163 +1,119 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/blackcater/blackcater/main/images/Matrix.gif" width="100%" height="150px"/>
-</div>
 
-<table width="100%">
-<tr><td>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000814,25:001d3d,50:003566,75:00b4d8,100:90e0ef&height=220&section=header&text=EHTISHAM%20TAHIR&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=%3C%3C%20HUMAN.EXE%20—%20SYSTEM%20ONLINE%20%3E%3E&descAlignY=58&descSize=17&animation=twinkling"/>
 
-```
-  ╭──●───●───●─────────────────────────────────────────────╮
-  │  root@ehtisham-tahir: ~                                 │
-  ├───────────────────────────────────────────────────────────┤
-```
-
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2200&pause=500&color=FF2E2E&center=true&vCenter=true&width=850&lines=EHTISHAM+TAHIR;PYTHON+DEVELOPER;FULL+STACK+DEVELOPER;UI%2FUX+DESIGNER"/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=15&duration=2000&pause=400&color=888888&center=true&vCenter=true&width=850&lines=%5B+access+level%3A+root+%5D+%5B+status%3A+online+%5D+%5B+mode%3A+build+%5D"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=20&duration=2600&pause=500&color=90E0EF&center=true&vCenter=true&width=900&lines=%E2%9E%A4+CALIBRATING+HOLOGRAPHIC+INTERFACE...;%E2%9E%A4+NEURAL+SYNC%3A+100%25;%E2%9E%A4+PYTHON+//+FULLSTACK+//+UI-UX;%E2%9E%A4+DIMENSION%3A+PRODUCTION;%E2%9E%A4+READY+FOR+DEPLOYMENT"/>
 
 </div>
 
-```
-  ╰───────────────────────────────────────────────────────────╯
-```
-
-</td></tr>
-</table>
-
 <div align="center">
 
-<img src="https://img.shields.io/badge/LINKEDIN-FF2E2E?style=flat-square&logo=linkedin&logoColor=black&labelColor=1a1a1a">
-&nbsp;
-<a href="https://www.linkedin.com/in/ehtisham-tahir-99480b417/"><img src="https://img.shields.io/badge/connect-1a1a1a?style=flat-square&color=FF2E2E"></a>
 &nbsp;&nbsp;
-<img src="https://img.shields.io/badge/GMAIL-FF2E2E?style=flat-square&logo=gmail&logoColor=black&labelColor=1a1a1a">
-&nbsp;
-<a href="mailto:1ehtishamtahir@gmail.com"><img src="https://img.shields.io/badge/send-1a1a1a?style=flat-square&color=FF2E2E"></a>
+<img src="https://img.shields.io/badge/◈_SYSTEM-ONLINE-00B4D8?style=for-the-badge&labelColor=000814"/>
+<img src="https://img.shields.io/badge/◈_CORE-STABLE-90E0EF?style=for-the-badge&labelColor=000814"/>
+<img src="https://img.shields.io/badge/◈_UPLINK-ACTIVE-48CAE4?style=for-the-badge&labelColor=000814"/>
 &nbsp;&nbsp;
-<img src="https://komarev.com/ghpvc/?username=1ehtishamtahir&style=flat-square&color=FF2E2E&label=SCANS"/>
+<img src="https://komarev.com/ghpvc/?username=1ehtishamtahir&style=for-the-badge&color=00B4D8&label=SCANS+DETECTED&labelColor=000814"/>
 
 </div>
 
 <br>
 
 <table width="100%">
-<tr><td>
+<tr>
+<td align="center" width="100%">
 
-```
-  ╭──●───●───●─────────────────────────────────────────────╮
-  │  root@ehtisham-tahir: ~/profile.py                       │
-  ├───────────────────────────────────────────────────────────┤
-```
+### 〈 IDENTITY.MODULE 〉
 
-```python
-class EhtishamTahir(Hacker):
-    def __init__(self):
-        self.alias   = "1ehtishamtahir"
-        self.roles   = ["Python Dev", "Full Stack Dev", "UI/UX Designer"]
-        self.stack   = {
-            "lang"    : ["Python", "JavaScript", "SQL", "HTML", "CSS"],
-            "frame"   : ["Django", "FastAPI", "Flask", "Node.js", "React"],
-            "db"      : ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
-            "tools"   : ["Git", "Docker", "Linux", "Figma", "Postman"],
-        }
-        self.learning = ["Cloud Computing", "System Design", "DevOps"]
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-    def philosophy(self):
-        return "solve the problem. then write the code."
+```yaml
+◈ callsign     : 1ehtishamtahir
+◈ class        : [Python Dev, Full Stack, UI/UX]
+◈ core_directive : "solve → design → build → ship"
+◈ runtime      : 24/7 · caffeine-driven
+◈ next_module  : Cloud · System Design · DevOps
 ```
 
+</td>
+<td width="50%" valign="top">
+
 ```
-  ╰───────────────────────────────────────────────────────────╯
+     ╱|、
+    (˚ˎ 。7     SYSTEM CORE
+     |、˜〵      ─────────────
+    じしˍ,)ノ    STATUS : ██████████ 100%
+                CPU    : Python 🐍
+                MEM    : Full Stack ∞
 ```
 
-</td></tr>
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
 </table>
 
 <br>
 
-<table width="100%">
-<tr><td>
-
-```
-  ╭──●───●───●─────────────────────────────────────────────╮
-  │  root@ehtisham-tahir: ~/stack --list                     │
-  ├───────────────────────────────────────────────────────────┤
-```
+## 〈 ARSENAL.DEPLOY 〉
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/-LANGUAGES-000814?style=for-the-badge&labelColor=00B4D8&color=000814"/>
+<br><br>
 <img src="https://skillicons.dev/icons?i=python,js,html,css,bash,mysql&theme=dark"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/-FRAMEWORKS-000814?style=for-the-badge&labelColor=48CAE4&color=000814"/>
 <br><br>
 <img src="https://skillicons.dev/icons?i=django,fastapi,flask,nodejs,react&theme=dark"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/-DATABASES-000814?style=for-the-badge&labelColor=90E0EF&color=000814"/>
 <br><br>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite&theme=dark"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/-TOOLKIT-000814?style=for-the-badge&labelColor=00B4D8&color=000814"/>
 <br><br>
 <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,githubactions,figma&theme=dark"/>
 
 </div>
 
-```
-  ╰───────────────────────────────────────────────────────────╯
-```
-
-</td></tr>
-</table>
-
 <br>
 
-<table width="100%">
-<tr><td>
-
-```
-  ╭──●───●───●─────────────────────────────────────────────╮
-  │  root@ehtisham-tahir: ~/stats --render                   │
-  ├───────────────────────────────────────────────────────────┤
-```
+## 〈 DIAGNOSTICS.LIVE 〉
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=1ehtishamtahir&show_icons=true&theme=dracula&hide_border=true&bg_color=1a1a1a&icon_color=FF2E2E&title_color=FF2E2E&text_color=cccccc&rank_icon=github&cache_seconds=1800"/>
+<img src="https://github-readme-stats.vercel.app/api?username=1ehtishamtahir&show_icons=true&theme=holi&hide_border=true&bg_color=000814&icon_color=00B4D8&title_color=90E0EF&text_color=caf0f8&rank_icon=github&cache_seconds=1800"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1ehtishamtahir&layout=compact&theme=dracula&hide_border=true&bg_color=1a1a1a&title_color=FF2E2E&text_color=cccccc"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1ehtishamtahir&layout=compact&theme=holi&hide_border=true&bg_color=000814&title_color=90E0EF&text_color=caf0f8"/>
 
-<img src="https://streak-stats.demolab.com?user=1ehtishamtahir&theme=dark&hide_border=true&background=1a1a1a&ring=FF2E2E&fire=FF2E2E&currStreakLabel=FF2E2E"/>
+<img src="https://streak-stats.demolab.com?user=1ehtishamtahir&theme=dark&hide_border=true&background=000814&ring=00B4D8&fire=90E0EF&currStreakLabel=90E0EF"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=1ehtishamtahir&theme=dracula&hide_border=true&bg_color=1a1a1a&color=FF2E2E&line=FF2E2E&point=ffffff"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=1ehtishamtahir&theme=high-contrast&hide_border=true&bg_color=000814&color=90E0EF&line=00B4D8&point=ffffff"/>
 
 </div>
 
-```
-  ╰───────────────────────────────────────────────────────────╯
-```
-
-</td></tr>
-</table>
-
 <br>
 
-<table width="100%">
-<tr><td>
-
-```
-  ╭──●───●───●─────────────────────────────────────────────╮
-  │  root@ehtisham-tahir: ~/trophies --show                  │
-  ├───────────────────────────────────────────────────────────┤
-```
+## 〈 ACHIEVEMENT.CORE 〉
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=1ehtishamtahir&theme=dracula&no-frame=true&margin-w=15&margin-h=15&column=4&rank=-A,A,AA,AAA,SSS"/>
+<img src="https://github-profile-trophy.vercel.app/?username=1ehtishamtahir&theme=algolia&no-frame=true&margin-w=15&margin-h=15&column=4&rank=-A,A,AA,AAA,SSS"/>
 </div>
 
-```
-  ╰───────────────────────────────────────────────────────────╯
-```
-
-</td></tr>
-</table>
-
 <br>
+
+## 〈 TIMELINE.STREAM 〉
 
 <p align="center">
 <picture>
@@ -167,14 +123,29 @@ class EhtishamTahir(Hacker):
 </picture>
 </p>
 
+<br>
+
+## 〈 UPLINK.CHANNELS 〉
+
 <div align="center">
 
-```
-> "First, solve the problem. Then, write the code." — John Johnson
-```
+<a href="https://www.linkedin.com/in/ehtisham-tahir-99480b417/">
+<img src="https://img.shields.io/badge/LINKEDIN-open__uplink-00B4D8?style=for-the-badge&logo=linkedin&logoColor=000814&labelColor=000814"/>
+</a>
+<a href="mailto:1ehtishamtahir@gmail.com">
+<img src="https://img.shields.io/badge/GMAIL-transmit__signal-90E0EF?style=for-the-badge&logo=gmail&logoColor=000814&labelColor=000814"/>
+</a>
 
-⭐ **star = access granted**
+</div>
 
-<img src="https://raw.githubusercontent.com/blackcater/blackcater/main/images/Matrix.gif" width="100%" height="120px"/>
+<br>
+
+<div align="center">
+
+`" First, solve the problem. Then, write the code. " — John Johnson`
+
+**◈ star this repo to sync with my timeline ◈**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:90e0ef,25:00b4d8,50:003566,75:001d3d,100:000814&height=150&section=footer"/>
 
 </div>
