@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/blackcater/blackcater/main/images/Matrix.gif" width="100%" height="180px"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=1800&pause=400&color=00FF9D&center=true&vCenter=true&width=900&lines=%3E+scanning+profile...;%3E+decrypting+identity...+12%25;%3E+decrypting+identity...+47%25;%3E+decrypting+identity...+89%25;%3E+decrypting+identity...+100%25;%3E+match+found+%E2%9C%93;%3E+identity%3A+EHTISHAM+TAHIR"/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:00ff9d&height=200&section=header&text=EHTISHAM.TAHIR&fontSize=50&fontColor=00ff9d&fontAlignY=35&desc=root@dev:~$%20whoami&descAlignY=55&descSize=18&animation=fadeIn"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00FF9D&center=true&vCenter=true&width=900&lines=%3E+INITIALIZING+ROOT+ACCESS...;%3E+ACCESS+GRANTED+%E2%9C%93;PYTHON+_+FULLSTACK+_+UI%2FUX;%5BSTATUS%5D%3A+ALWAYS_COMPILING;%5BMODE%5D%3A+BUILD.+BREAK.+REBUILD.;Django+//+FastAPI+//+Flask;Open+Source+%3D+True"/>
