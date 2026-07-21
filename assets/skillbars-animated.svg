@@ -1,0 +1,57 @@
+<svg width="100%" height="260" viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0077b6"/>
+      <stop offset="100%" stop-color="#90e0ef"/>
+    </linearGradient>
+    <filter id="barGlow"><feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="700" height="260" fill="#000814"/>
+
+  <!-- Row template: label, track, animated fill -->
+  <g font-family="Consolas, monospace" font-size="14" fill="#caf0f8">
+    <text x="20" y="30">Python</text>
+    <rect x="180" y="18" width="480" height="14" rx="7" fill="#001d3d" stroke="#023047"/>
+    <rect x="180" y="18" height="14" rx="7" fill="url(#barGrad)" filter="url(#barGlow)">
+      <animate attributeName="width" values="0;456;456" keyTimes="0;0.6;1" dur="2.5s" fill="freeze"/>
+    </rect>
+    <text x="670" y="30" text-anchor="end" fill="#90e0ef">95%</text>
+
+    <text x="20" y="70">Django / FastAPI</text>
+    <rect x="180" y="58" width="480" height="14" rx="7" fill="#001d3d" stroke="#023047"/>
+    <rect x="180" y="58" height="14" rx="7" fill="url(#barGrad)" filter="url(#barGlow)">
+      <animate attributeName="width" values="0;408;408" keyTimes="0;0.6;1" dur="2.5s" begin="0.2s" fill="freeze"/>
+    </rect>
+    <text x="670" y="70" text-anchor="end" fill="#90e0ef">85%</text>
+
+    <text x="20" y="110">React / JavaScript</text>
+    <rect x="180" y="98" width="480" height="14" rx="7" fill="#001d3d" stroke="#023047"/>
+    <rect x="180" y="98" height="14" rx="7" fill="url(#barGrad)" filter="url(#barGlow)">
+      <animate attributeName="width" values="0;360;360" keyTimes="0;0.6;1" dur="2.5s" begin="0.4s" fill="freeze"/>
+    </rect>
+    <text x="670" y="110" text-anchor="end" fill="#90e0ef">75%</text>
+
+    <text x="20" y="150">Databases (SQL/Mongo)</text>
+    <rect x="180" y="138" width="480" height="14" rx="7" fill="#001d3d" stroke="#023047"/>
+    <rect x="180" y="138" height="14" rx="7" fill="url(#barGrad)" filter="url(#barGlow)">
+      <animate attributeName="width" values="0;384;384" keyTimes="0;0.6;1" dur="2.5s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <text x="670" y="150" text-anchor="end" fill="#90e0ef">80%</text>
+
+    <text x="20" y="190">UI / UX Design</text>
+    <rect x="180" y="178" width="480" height="14" rx="7" fill="#001d3d" stroke="#023047"/>
+    <rect x="180" y="178" height="14" rx="7" fill="url(#barGrad)" filter="url(#barGlow)">
+      <animate attributeName="width" values="0;336;336" keyTimes="0;0.6;1" dur="2.5s" begin="0.8s" fill="freeze"/>
+    </rect>
+    <text x="670" y="190" text-anchor="end" fill="#90e0ef">70%</text>
+
+    <text x="20" y="230">DevOps / Docker / Git</text>
+    <rect x="180" y="218" width="480" height="14" rx="7" fill="#001d3d" stroke="#023047"/>
+    <rect x="180" y="218" height="14" rx="7" fill="url(#barGrad)" filter="url(#barGlow)">
+      <animate attributeName="width" values="0;312;312" keyTimes="0;0.6;1" dur="2.5s" begin="1.0s" fill="freeze"/>
+    </rect>
+    <text x="670" y="230" text-anchor="end" fill="#90e0ef">65%</text>
+  </g>
+</svg>

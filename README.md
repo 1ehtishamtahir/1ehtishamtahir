@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000814,25:001d3d,50:003566,75:00b4d8,100:90e0ef&height=220&section=header&text=EHTISHAM%20TAHIR&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=%3C%3C%20HUMAN.EXE%20—%20SYSTEM%20ONLINE%20%3E%3E&descAlignY=58&descSize=17&animation=twinkling"/>
+<img src="assets/header-animated.svg" width="100%" alt="animated header"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=20&duration=2600&pause=500&color=90E0EF&center=true&vCenter=true&width=900&lines=%E2%9E%A4+CALIBRATING+HOLOGRAPHIC+INTERFACE...;%E2%9E%A4+NEURAL+SYNC%3A+100%25;%E2%9E%A4+PYTHON+//+FULLSTACK+//+UI-UX;%E2%9E%A4+DIMENSION%3A+PRODUCTION;%E2%9E%A4+READY+FOR+DEPLOYMENT"/>
 
@@ -19,22 +19,18 @@
 
 <br>
 
-<table width="100%">
-<tr>
-<td align="center" width="100%">
-
-### 〈 IDENTITY.MODULE 〉
+## 〈 IDENTITY.MODULE 〉
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
 ```yaml
-◈ callsign     : 1ehtishamtahir
-◈ class        : [Python Dev, Full Stack, UI/UX]
+◈ callsign       : 1ehtishamtahir
+◈ class          : [Python Dev, Full Stack, UI/UX]
 ◈ core_directive : "solve → design → build → ship"
-◈ runtime      : 24/7 · caffeine-driven
-◈ next_module  : Cloud · System Design · DevOps
+◈ runtime        : 24/7 · caffeine-driven
+◈ next_module    : Cloud · System Design · DevOps
 ```
 
 </td>
@@ -53,9 +49,21 @@
 </tr>
 </table>
 
-</td>
-</tr>
-</table>
+<br>
+
+## 〈 ORBITAL.SKILL.MODULE 〉
+
+<div align="center">
+<img src="assets/orbit-animated.svg" width="80%" alt="orbiting skills animation"/>
+</div>
+
+<br>
+
+## 〈 PROFICIENCY.SCAN 〉
+
+<div align="center">
+<img src="assets/skillbars-animated.svg" width="85%" alt="animated skill bars"/>
+</div>
 
 <br>
 

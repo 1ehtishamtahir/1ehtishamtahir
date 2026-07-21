@@ -1,0 +1,90 @@
+<svg width="100%" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00b4d8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#000814" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="420" fill="#000814"/>
+
+  <!-- Orbit rings -->
+  <circle cx="450" cy="210" r="90" fill="none" stroke="#00b4d8" stroke-width="1" opacity="0.35"/>
+  <circle cx="450" cy="210" r="150" fill="none" stroke="#0077b6" stroke-width="1" opacity="0.3"/>
+  <circle cx="450" cy="210" r="150" fill="none" stroke="#90e0ef" stroke-width="1" opacity="0.15">
+    <animate attributeName="r" values="150;160;150" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Core -->
+  <circle cx="450" cy="210" r="70" fill="url(#coreGlow)"/>
+  <circle cx="450" cy="210" r="46" fill="#001d3d" stroke="#90e0ef" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="450" y="205" text-anchor="middle" font-family="Orbitron, monospace" font-size="13" fill="#90e0ef" filter="url(#softGlow)">CORE</text>
+  <text x="450" y="222" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#48cae4">100%</text>
+
+  <!-- Inner orbit: 4 icons, radius 90, 10s rotation -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 210" to="360 450 210" dur="14s" repeatCount="indefinite"/>
+    <g transform="translate(450,120)">
+      <circle r="22" fill="#000814" stroke="#00b4d8" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=python" x="-14" y="-14" width="28" height="28"
+             transform="rotate(0)"/>
+    </g>
+    <g transform="translate(540,210)">
+      <circle r="22" fill="#000814" stroke="#00b4d8" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=django" x="-14" y="-14" width="28" height="28"/>
+    </g>
+    <g transform="translate(450,300)">
+      <circle r="22" fill="#000814" stroke="#00b4d8" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=react" x="-14" y="-14" width="28" height="28"/>
+    </g>
+    <g transform="translate(360,210)">
+      <circle r="22" fill="#000814" stroke="#00b4d8" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=fastapi" x="-14" y="-14" width="28" height="28"/>
+    </g>
+  </g>
+
+  <!-- Outer orbit: 6 icons, radius 150, reverse rotation -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 450 210" to="0 450 210" dur="22s" repeatCount="indefinite"/>
+    <g transform="translate(450,60)">
+      <circle r="24" fill="#000814" stroke="#0077b6" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=js" x="-15" y="-15" width="30" height="30"/>
+    </g>
+    <g transform="translate(580,105)">
+      <circle r="24" fill="#000814" stroke="#0077b6" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=docker" x="-15" y="-15" width="30" height="30"/>
+    </g>
+    <g transform="translate(600,210)">
+      <circle r="24" fill="#000814" stroke="#0077b6" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=postgres" x="-15" y="-15" width="30" height="30"/>
+    </g>
+    <g transform="translate(580,315)">
+      <circle r="24" fill="#000814" stroke="#0077b6" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=git" x="-15" y="-15" width="30" height="30"/>
+    </g>
+    <g transform="translate(450,360)">
+      <circle r="24" fill="#000814" stroke="#0077b6" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=linux" x="-15" y="-15" width="30" height="30"/>
+    </g>
+    <g transform="translate(320,315)">
+      <circle r="24" fill="#000814" stroke="#0077b6" stroke-width="1.5"/>
+      <image href="https://skillicons.dev/icons?i=figma" x="-15" y="-15" width="30" height="30"/>
+    </g>
+  </g>
+
+  <!-- Trailing spark on outer ring -->
+  <circle r="4" fill="#90e0ef" filter="url(#softGlow)">
+    <animateMotion dur="22s" repeatCount="indefinite"
+      path="M 600,210 A 150,150 0 1,1 599.99,210 A 150,150 0 1,1 600,210"/>
+  </circle>
+
+  <text x="450" y="405" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#48cae4" opacity="0.8">
+    ORBITAL SKILL MODULE — LIVE ROTATION
+  </text>
+</svg>
